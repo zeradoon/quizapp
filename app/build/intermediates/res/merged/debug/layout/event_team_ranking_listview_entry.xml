@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/answerlist_bg"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/event_team_ranking_listview_entry_ranking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1위"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/event_team_ranking_listview_entry_team_name"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="경영팀"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/event_team_ranking_listview_entry_cnt"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15명 참여" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/event_team_ranking_listview_entry_sum"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="총점 500점" />
+
+            <TextView
+                android:id="@+id/event_team_ranking_listview_entry_avg"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="평균 95점" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

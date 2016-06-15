@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/practice_quiz_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/quizCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="퀴즈풀이 수 : "
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="0"
+                android:textColor="#FF0000"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="top"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="퀴즈이동   No: "
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etNavQuesNo"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:singleLine="true" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/prac_tvTotalQues"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/prac_NavQuesBtn"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gray"
+                android:text="Go"
+                android:textColor="#454545" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="5dp" >
+
+            <TabHost
+                android:id="@+id/tabhost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top"
+                    android:paddingTop="30dp" >
+
+                    <include
+                        android:id="@+id/tab1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        layout="@layout/practice_tab01" />
+
+                    <include
+                        android:id="@+id/tab2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        layout="@layout/practice_tab02" />
+
+                    <include
+                        android:id="@+id/tab3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        layout="@layout/practice_tab03" />
+                </FrameLayout>
+            </TabHost>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

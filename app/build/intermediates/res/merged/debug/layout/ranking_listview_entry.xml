@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/answerlist_bg"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ranking_listview_entry_ranking_grade_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/user_grade_anonymous" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/ranking_listview_entry_ranking_grade"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranking_grade_forth" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ranking_listview_entry_user_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/photo_ranking_noimage" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|left"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left" >
+
+                <TextView
+                    android:id="@+id/ranking_listview_entry_ranking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1위"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/ranking_listview_entry_medal_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/answerlist_bg" >
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ranking_listview_entry_user_nickname"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKMS맨" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/ranking_listview_entry_ranking_score_detail"
+                style="@style/ranking_listview_entry_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1,240점(145회)" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

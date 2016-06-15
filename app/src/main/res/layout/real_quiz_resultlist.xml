@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:id="@+id/real_quiz_resultlist">
+    
+    <include layout="@layout/title" android:id="@+id/title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="top"
+    	android:layout_weight="0"
+    	android:paddingTop="5dp"
+   		android:paddingLeft="10dp"
+   		android:paddingRight="10dp">
+   	   		
+   		<RelativeLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		    	
+   			<TextView
+    			android:id="@+id/TextView01"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_centerVertical="true"
+				android:textColor="#000000"
+				android:textSize="12dp"
+				android:drawableLeft="@drawable/icon_clock"
+				android:drawablePadding="3dp"
+				android:text="퀴즈 종료" />
+		</RelativeLayout>
+   		
+   		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="10dp"
+    		android:gravity="center_horizontal">
+   		
+   			<TextView
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#000000"
+				android:textSize="13dp"
+				android:text="수고하셨습니다."
+				android:textStyle="bold"
+				android:paddingBottom="5dp" />
+				
+			<TextView
+			    android:id="@+id/real_result_score"
+	   			android:layout_width="fill_parent"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="#ffecbd"
+				android:textColor="#000000"
+				android:gravity="center_horizontal"
+				android:layout_centerVertical="true"
+				android:textSize="15dp"
+				android:text=""
+				android:textStyle="bold" />
+			
+			<!--  문제1 -->
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginTop="10dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q1"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 1" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn1"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_marginLeft="10dp"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+				
+				<!-- 정답일 경우 투명 버튼(Layout 맞추기 위함) -->	
+				<Button
+				    
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom" 
+		            android:id="@+id/real_goto_mystudyroom1"
+		            android:onClick="monclick"
+		           	></Button> 
+		   
+		        
+		    
+		    </RelativeLayout>
+		    
+		    <!--  문제2 -->
+		    <RelativeLayout
+		        
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q2"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 2" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn2"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+					
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"  
+					android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom2"	></Button> 
+		         
+		    </RelativeLayout>
+		    
+		    <!--  문제3 -->
+			<RelativeLayout
+			    
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q3"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 3" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn3"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+					
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+    				android:gravity="center_horizontal"
+					android:background="@drawable/btn_goto_mystudyroom" 
+					android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom3" 	></Button> 
+		     
+		    </RelativeLayout>
+		    
+		    <!--  문제4 -->
+			<RelativeLayout
+			   
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q4"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 4" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn4"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+					
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"
+					android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom4" 	></Button> 
+		          
+		    </RelativeLayout>
+		    
+		    <!--  문제5 -->
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q5"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 5" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn5"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+				
+				<!-- 정답일 경우 투명 버튼(Layout 맞추기 위함) -->	
+				<Button
+				    android:id="@+id/real_goto_mystudyroom5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"  
+					android:onClick="monclick"
+					android:background="@drawable/btn_goto_mystudyroom"
+					></Button> 
+		   
+		      
+		   
+		   
+		    </RelativeLayout>
+		    
+		    <!--  문제6 -->
+		    <RelativeLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q6"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 6" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn6"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+					
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"
+					android:onClick="monclick"
+		             android:id="@+id/real_goto_mystudyroom6"	></Button> 
+		      
+		    </RelativeLayout>
+		    
+		    <!--  문제7 -->
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q7"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 7" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn7"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+				
+				<!-- 정답일 경우 투명 버튼(Layout 맞추기 위함) -->	
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"
+					android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom7" 	></Button> 
+		        
+		    </RelativeLayout>
+		    
+		    <!--  문제8 -->
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q8"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 8" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn8"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+				
+				<!-- 정답일 경우 투명 버튼(Layout 맞추기 위함) -->	
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"
+					 android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom8" 	></Button> 
+		         
+		    </RelativeLayout>
+		    
+		    <!--  문제9 -->
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q9"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 9" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn9"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+				
+				<!-- 정답일 경우 투명 버튼(Layout 맞추기 위함) -->	
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"
+					android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom9" 	></Button> 
+                  
+            </RelativeLayout>
+		    
+		    <!--  문제10 -->
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    		    android:id="@+id/real_result_q10"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="문제 10" />
+					
+				<TextView
+				    android:id="@+id/real_result_yn10"
+		   			android:layout_width="80dp"
+		   			android:layout_height="wrap_content"
+					android:background="@drawable/answerlist_bg"
+					android:textColor="#000000"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:gravity="center_horizontal"
+					android:text="오답" />
+				
+				<!-- 정답일 경우 투명 버튼(Layout 맞추기 위함) -->	
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+    				android:layout_centerVertical="true"
+					android:background="@drawable/btn_goto_mystudyroom"
+					android:onClick="monclick"
+		            android:id="@+id/real_goto_mystudyroom10" 	></Button> 
+		          
+		    </RelativeLayout>
+		    
+		    <LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="vertical"
+	    		android:layout_marginTop="10dp"
+	    		android:paddingLeft="5dp">
+		    	
+		    	<TextView
+		   			android:layout_width="wrap_content"
+		   			android:layout_height="fill_parent"
+		   			android:textColor="#525252"
+		   			android:textSize="12dp"
+		   			android:text="오답 문제는 오답노트에서 확인하실 수 있습니다.\n(단, 100문제까지만 자동 저장 됩니다.)"
+					android:layout_gravity="left" />
+			</LinearLayout>
+			
+			<RelativeLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal"
+	    		android:layout_marginTop="15dp">
+				<ImageButton android:src="@drawable/btn_retry_selector"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+					android:background="@color/Transparent" android:onClick="monclick"
+					android:id="@+id/real_retry"></ImageButton>
+				<ImageButton android:src="@drawable/btn_quit_selector"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+					android:background="@color/Transparent" android:onClick="monclick"
+					android:id="@+id/real_quit"></ImageButton>
+				<ImageButton android:src="@drawable/btn_viewranking_selector"
+					android:background="@color/Transparent" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:id="@+id/real_view_ranking"
+					android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+					android:onClick="monclick"></ImageButton>
+			</RelativeLayout>
+	   	</LinearLayout>
+	
+	</LinearLayout>
+</LinearLayout>

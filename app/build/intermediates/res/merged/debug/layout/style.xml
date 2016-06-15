@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ececec"
+    android:layout_gravity="top"
+    android:gravity="top">
+    	
+   	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/sk_logo"
+    	android:layout_centerVertical="true"
+    	android:layout_marginLeft="10dp"
+   	/>
+   
+    <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="학습퀴즈"
+    	android:textColor="#3e3e3e"
+    	android:textStyle="bold"
+    	android:layout_centerVertical="true"
+    	android:layout_marginLeft="33dp" android:paddingTop="3dp"/>
+    
+    <ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/btn_home"
+    	android:id="@+id/btn_home"
+    	android:layout_alignParentRight="true"
+    	android:layout_centerVertical="true"
+    	android:layout_marginTop="8dp"
+    	android:layout_marginBottom="5dp"
+    	android:layout_marginRight="10dp"
+  	 />
+
+</RelativeLayout>

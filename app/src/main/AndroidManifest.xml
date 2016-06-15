@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="9"
+	android:versionName="3.2"
+      package="com.skcc.portal.skmsquiz">
+    <uses-sdk android:minSdkVersion="7"/>
+    
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="false">
+        <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.login.AppVersionCheck" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<!-- ?숈뒿?댁쫰 Activity / ?붾㈃ ?몃줈 怨좎젙 -->
+		<activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.practice.PracticeSelect" android:screenOrientation="portrait"></activity>
+		<activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.practice.PracticeQuiz" android:screenOrientation="portrait"  android:windowSoftInputMode="stateHidden"></activity>
+		
+		<!-- ?ㅼ쟾?댁쫰 Activity / ?붾㈃ ?몃줈 怨좎젙 -->
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_intro" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_quiz" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_quiz_ox" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_quiz_shortanswer" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_quiz_multiple" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_intod_dto" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.real.real_quiz_resultlist" android:screenOrientation="portrait"></activity>
+		
+		<!-- ?섏쓽 怨듬?諛?愿??Activity List -->
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.mystudy.MyStudyRoom_Tab_Main" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.mystudy.MyStudyRoom_Select" android:screenOrientation="portrait"></activity>
+		
+		<!-- ?꾨줈?뚯씪 愿??Activity List -->
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.profile.ProfileMain" android:screenOrientation="portrait"></activity>
+		
+		<!-- Ranking Activity List -->
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.RankingReal" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.RankingRealDetail" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.RankingSelect" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.EventTeamRanking" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.RankingEventList" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.RankingEventBasedTeam" android:screenOrientation="portrait"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.ranking.RankingEventBasedIndividual" android:screenOrientation="portrait"></activity>
+		
+		
+		<!-- Notice Activity List -->
+		<activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.notice.NoticeList" android:screenOrientation="portrait"></activity>
+		
+		<activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"  android:name="com.main.MainHidden" android:screenOrientation="portrait"></activity>
+		<activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"   android:name="com.main.QuizMain" android:screenOrientation="portrait" ></activity>
+        
+        <!-- Login Activity List -->
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.login.UserLogin" android:screenOrientation="portrait" ></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.login.UserRegister" android:screenOrientation="portrait" ></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.login.RecoverUserIdPassword" android:screenOrientation="portrait" ></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.login.ResetPassword" android:screenOrientation="portrait" ></activity>
+		
+        <!-- Event -->
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.SuddenEventQuestion" android:screenOrientation="portrait"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.GeneralEvent" android:screenOrientation="portrait"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.GeneralEventDetail" android:screenOrientation="portrait"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.VirtualEventDetail" android:screenOrientation="portrait"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.GeneralEventQuiz" android:screenOrientation="portrait"  android:windowSoftInputMode="stateHidden"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.SurvivalEventQuiz" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.GeneralEventQuizResult" android:screenOrientation="portrait"></activity>
+        <activity  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.event.SurvivalEventQuizResult" android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>

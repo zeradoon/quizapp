@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:id="@+id/survivalevent_quiz_answerlist">
+     
+    
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="top"
+    	android:layout_weight="0"
+    	android:paddingTop="5dp"
+   		android:paddingLeft="10dp"
+   		android:paddingRight="10dp">
+   	   	
+   		
+   		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:padding="10dp"
+    		android:gravity="center_horizontal"
+    		android:layout_marginTop="10dp">
+   		
+   			<TextView
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#000000"
+				android:textSize="15dp"
+				android:text="- 현재까지 답안지 현황 -"
+				android:textStyle="bold"
+				android:paddingBottom="10dp" />
+			
+			</LinearLayout>
+
+        <RelativeLayout
+            	android:id="@+id/survivalevent_answerlistview_layout"
+            	android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingLeft="15dp"
+	    		android:paddingRight="15dp"
+	    		android:layout_marginBottom="3dp"
+	    		android:orientation="horizontal" >
+
+            <ListView
+                android:id="@+id/survivalevent_answerlistview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:cacheColorHint="#00000000">
+            </ListView>
+            
+        </RelativeLayout>
+		    <LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingTop="20dp">
+			    <ImageButton android:layout_height="wrap_content" 
+			        android:layout_width="wrap_content" 
+			        android:src="@drawable/btn_summitsheet_selector" 
+			        android:background="@color/Transparent" 
+			        android:id="@+id/btn_survivalevent_summitsheet" 
+			        android:onClick="onclick">
+			    </ImageButton>				
+			</LinearLayout>
+	   	</LinearLayout>
+
+</LinearLayout>

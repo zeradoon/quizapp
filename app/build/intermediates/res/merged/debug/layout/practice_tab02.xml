@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+   	android:orientation="vertical"
+   	android:gravity="center_horizontal"
+   	android:layout_weight="0">
+   	
+   	<!-- 문제 영역  -->
+   	<TextView
+   		android:id="@+id/practice_quiz_2_seqno"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+   	<TextView
+   		android:id="@+id/practice_quiz_2_your_answer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+		
+   	<LinearLayout
+   	    android:id="@+id/practice_quiz_2"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:layout_marginLeft="10dp"
+   	    android:layout_marginRight="10dp"
+   	    android:gravity="top"
+   	    android:minHeight="80dp"
+   	    android:orientation="vertical"
+   	    android:visibility="visible" >
+
+   	    <LinearLayout
+   	        android:layout_width="match_parent"
+   	        android:layout_height="1dp"
+   	        android:background="#e4e4e4"
+   	        android:orientation="vertical" >
+   	    </LinearLayout>
+
+   	    <LinearLayout
+   	        android:layout_width="match_parent"
+   	        android:layout_height="1dp"
+   	        android:background="#f0f0f0"
+   	        android:orientation="vertical" >
+   	    </LinearLayout>
+
+   	    <LinearLayout
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:background="@drawable/question_border"
+   	        android:orientation="vertical"
+   	        android:padding="10dp" >
+
+   	        <LinearLayout
+   	            android:layout_width="fill_parent"
+   	            android:layout_height="fill_parent"
+   	            android:gravity="top"
+   	            android:orientation="horizontal"
+   	            android:padding="10dp"
+   	            android:visibility="visible" >
+
+   	            <TextView
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:layout_gravity="left"
+   	                android:background="@drawable/bg_question" />
+
+   	            <TextView
+   	                android:id="@+id/practice_quiz_2_ques_seqno"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:layout_gravity="left"
+   	                android:paddingLeft="10dp"
+   	                android:paddingRight="10dp"
+   	                android:paddingTop="5dp"
+   	                android:text=""
+   	                android:textColor="#000000"
+   	                android:textSize="14dp" />
+   	        </LinearLayout>
+
+   	        <LinearLayout
+   	            android:layout_width="fill_parent"
+   	            android:layout_height="fill_parent"
+   	            android:gravity="top"
+   	            android:orientation="horizontal"
+   	            android:padding="10dp"
+   	            android:visibility="visible" >
+
+   	            <TextView
+   	                android:id="@+id/practice_quiz_2_question"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:layout_gravity="left"
+   	                android:paddingLeft="10dp"
+   	                android:paddingRight="10dp"
+   	                android:paddingTop="5dp"
+   	                android:text=""
+   	                android:textColor="#000000"
+   	                android:textSize="14dp" />
+   	        </LinearLayout>
+   	    </LinearLayout>
+
+   	    <LinearLayout
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content" >
+
+   	        <FrameLayout
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="match_parent"
+   	            android:layout_weight="0"
+   	            android:background="@drawable/corner_left" >
+   	        </FrameLayout>
+
+   	        <LinearLayout
+   	            android:layout_width="match_parent"
+   	            android:layout_height="match_parent"
+   	            android:layout_weight="1"
+   	            android:background="@drawable/corner_center"
+   	            android:orientation="vertical" >
+   	        </LinearLayout>
+
+   	        <RelativeLayout
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content"
+   	            android:layout_weight="0"
+   	            android:background="@drawable/corner_right" >
+   	        </RelativeLayout>
+   	    </LinearLayout>
+
+   	    <LinearLayout
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginTop="10dp"
+   	        android:background="@drawable/login_box"
+   	        android:minHeight="100dp"
+   	        android:orientation="vertical"
+   	        android:paddingBottom="20dp"
+   	        android:paddingTop="20dp" >
+
+   	        <LinearLayout
+   	            android:layout_width="fill_parent"
+   	            android:layout_height="wrap_content"
+   	            android:gravity="left"
+   	            android:orientation="horizontal"
+   	            android:paddingLeft="10dp" >
+
+   	            <RadioGroup
+   	                android:id="@+id/practice_quiz_2_radiogroup"
+   	                android:layout_width="fill_parent"
+   	                android:layout_height="wrap_content"
+   	                android:orientation="vertical" >
+
+   	                <RadioButton
+   	                    android:id="@+id/practice_quiz_2_radio1"
+   	                    android:layout_width="fill_parent"
+   	                    android:layout_height="wrap_content"
+   	                    android:text=""
+   	                    android:textColor="#000000"
+   	                    android:textSize="14dp" />
+
+   	                <RadioButton
+   	                    android:id="@+id/practice_quiz_2_radio2"
+   	                    android:layout_width="fill_parent"
+   	                    android:layout_height="wrap_content"
+   	                    android:text=""
+   	                    android:textColor="#000000"
+   	                    android:textSize="14dp" />
+
+   	                <RadioButton
+   	                    android:id="@+id/practice_quiz_2_radio3"
+   	                    android:layout_width="fill_parent"
+   	                    android:layout_height="wrap_content"
+   	                    android:text=""
+   	                    android:textColor="#000000"
+   	                    android:textSize="14dp" />
+
+   	                <RadioButton
+   	                    android:id="@+id/practice_quiz_2_radio4"
+   	                    android:layout_width="fill_parent"
+   	                    android:layout_height="wrap_content"
+   	                    android:text=""
+   	                    android:textColor="#000000"
+   	                    android:textSize="14dp" />
+   	            </RadioGroup>
+   	        </LinearLayout>
+
+   	        <LinearLayout
+   	            android:layout_width="fill_parent"
+   	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center_horizontal"
+   	            android:gravity="center_horizontal"
+   	            android:paddingTop="10dp" >
+
+   	            <Button
+   	                android:id="@+id/practice_quiz_2_submit"
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="wrap_content"
+   	                android:layout_gravity="center_horizontal"
+   	                android:background="@drawable/btn_viewanswer" >
+   	            </Button>
+   	        </LinearLayout>
+   	    </LinearLayout>
+   	</LinearLayout>
+
+	<!-- 해설 영역 -->
+   	<LinearLayout
+		android:id="@+id/practice_result_2"
+		android:visibility="gone"
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:orientation="vertical"
+   		android:gravity="top"
+   		android:padding="10dp">
+   		
+   		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/question_border"
+			android:gravity="center_horizontal"
+    		android:orientation="horizontal"
+    		android:padding="10dp">
+	   		
+	   		<TextView
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#000000"
+				android:textSize="16dp"
+				android:text="정답 : " />
+	   		<TextView
+	   			android:id="@+id/practice_result_2_answer"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#000000"
+				android:textSize="16dp" />
+	   	</LinearLayout>
+   		
+   		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/question_border"
+    		android:orientation="vertical"
+    		android:padding="10dp"
+    		android:gravity="center_horizontal"
+    		android:layout_marginTop="10dp">
+   		
+   			<TextView
+	   			android:id="@+id/practice_result_2_your_result"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#FF0000"
+				android:textSize="18dp"
+				android:text=""
+				android:textStyle="bold" />
+	   		
+	   		<TextView
+	   			android:paddingTop="10dp"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#000000"
+				android:textSize="12dp"
+				android:text="전체 학습자들의 정/오답률" />
+			
+			<LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:orientation="horizontal">
+	    		
+	    		<TextView
+	    			android:id="@+id/practice_result_2_bluebar"
+		   			android:layout_width="0dp"
+		   			android:layout_height="wrap_content"
+					android:textSize="10dp"
+					android:background="#017bd2" />
+					<!-- 200px /2 * 42 = 84 px -->
+					
+				<TextView
+					android:id="@+id/practice_result_2_redbar"
+		   			android:layout_width="200dp"
+		   			android:layout_height="wrap_content"
+					android:textSize="10dp"
+					android:background="#ff3030" />
+					<!-- 200px /2 * 58 = 116 px -->
+					
+		    </LinearLayout>
+		    
+		    <LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_gravity="center_horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:orientation="horizontal">
+
+			    <LinearLayout
+		   			android:layout_width="100dp"
+		    		android:layout_height="wrap_content"
+		    		android:layout_gravity="center_horizontal"
+		    		android:gravity="left"
+		    		android:orientation="horizontal">
+
+		    		<TextView
+			   			android:layout_width="wrap_content"
+			   			android:layout_height="wrap_content"
+						android:textColor="#000000"
+			   			android:textSize="12dp"
+						android:text="(정답) " />
+											
+		    		<TextView
+		    			android:id="@+id/practice_result_2_bluetxt"
+			   			android:layout_width="wrap_content"
+			   			android:layout_height="wrap_content"
+						android:textColor="#000000"
+			   			android:textSize="12dp"
+						android:text="--.-%" />
+						<!-- 200px /2 * 42 = 84 px -->
+
+			    </LinearLayout>
+
+			    <LinearLayout
+		   			android:layout_width="100dp"
+		    		android:layout_height="wrap_content"
+		    		android:layout_gravity="center_horizontal"
+		    		android:gravity="right"
+		    		android:orientation="horizontal">
+						
+		    		<TextView
+			   			android:layout_width="wrap_content"
+			   			android:layout_height="wrap_content"
+						android:textColor="#000000"
+			   			android:textSize="12dp"
+						android:text="(오답) " />
+
+					<TextView
+						android:id="@+id/practice_result_2_redtxt"
+			   			android:layout_width="wrap_content"
+			   			android:layout_height="wrap_content"
+						android:textColor="#000000"
+			   			android:textSize="12dp"
+						android:text="--.-%" />
+						<!-- 200px /2 * 58 = 116 px -->
+
+				</LinearLayout>
+							    
+		    </LinearLayout>
+		    
+	   	</LinearLayout>
+
+	   	<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+			android:background="@drawable/question_border"
+    		android:orientation="vertical"
+    		android:layout_marginTop="10dp"
+    		android:layout_marginBottom="10dp"
+	    	android:padding="10dp">
+	    	
+	    	<TextView
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:background="@drawable/bg_answer"
+				android:layout_gravity="left" />
+				
+			<TextView
+				android:id="@+id/practice_result_2_explanation"
+				android:paddingTop="5dp"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+	   			android:textColor="#525252"
+	   			android:textSize="13dp"
+	   			android:text=""
+				android:layout_gravity="left" />
+				
+			<Button
+    			android:id="@+id/practice_result_2_snote"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:background="@drawable/btn_scrap" />
+		</LinearLayout>		
+		
+		<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:layout_marginBottom="10dp"
+    		android:paddingLeft="5dp">
+	    	
+	    	<TextView
+    			android:id="@+id/practice_result_2_cnote"
+				android:visibility="gone"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+	   			android:textColor="#525252"
+	   			android:textSize="12dp"
+	   			android:text="자동으로 오답 노트에 저장되었습니다.\n(나의 공부방에서 복습하실 수 있습니다.)"
+				android:layout_gravity="left" />
+				
+			<TextView
+    			android:id="@+id/practice_result_2_cnote_full"
+				android:visibility="gone"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+	   			android:textColor="#525252"
+	   			android:textSize="12dp"
+	   			android:text="오답 노트가 이미 다 찼습니다.\n더 이상 오답 노트에 저장되지 않습니다."
+				android:layout_gravity="left" />
+		</LinearLayout>
+		
+		<RelativeLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+   			<Button
+				android:id="@+id/practice_result_2_quit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:gravity="center_vertical"
+				android:background="@drawable/btn_quit" />
+			
+			<Button
+				android:id="@+id/practice_result_2_cont"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"				
+    			android:layout_alignParentRight="true"
+    			android:gravity="center_vertical"
+				android:background="@drawable/btn_continue" />
+		</RelativeLayout>
+	</LinearLayout>	
+</LinearLayout>
+</ScrollView>

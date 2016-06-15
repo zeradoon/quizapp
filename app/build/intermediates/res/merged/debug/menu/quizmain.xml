@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <item android:id="@+id/profile"
+          android:title="프로필 관리" >
+    </item>
+    <item android:id="@+id/password"
+          android:title="비밀번호 변경">
+    </item>
+    <item android:id="@+id/ranking"
+          android:title="랭킹" >
+    </item>
+    <item android:id="@+id/events"
+          android:title="이벤트" >
+    </item>
+	<item android:id="@+id/signout"
+          android:title="로그아웃" >
+    </item>
+</menu>

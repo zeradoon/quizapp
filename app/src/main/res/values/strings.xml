@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header Titles -->
+	<string name="header_title_login">SKMS Quiz 로그인</string>
+	<string name="header_title_register">가입 신청하기</string>
+	<string name="header_title_find_idpw">아이디/비밀번호 찾기</string>
+	<string name="header_title_change_pw">비밀번호 변경</string>
+		
+    <!-- User Register -->
+	<string name="tvUserId">사용자 ID</string>
+	<string name="tvUserPassword">비밀번호</string>
+	<string name="tvUserPasswordCon">비밀번호 확인</string><!-- Confirm Password -->
+	<string name="tvUserName">이름</string>
+	<string name="tvUserNickName">별명</string>
+	<string name="tvUserEmail">이메일</string>
+	<string name="tvUserEmailDomain">\@</string>
+	<string name="tvUserPhone">휴대폰</string>
+	<string name="tvUserCompany">회사</string>
+	<string name="tvUserDept">부서</string><!-- Department -->
+	<string name="login_RegisterBtn">가입 신청하기</string> <!-- Register -->
+	<string name="login_LoginBtn">로그인</string> <!-- Login -->
+	<string name="login_CancelBtn">취소</string> <!-- Cancel -->
+	<string name="RegisterUserBtn">가입하기</string> <!-- Register User -->
+	<string name="ForgotInstructionText">이메일 주소를 입력하여 주세요.</string> <!-- ForgotInstructionText -->
+	<string name="FindUserIdBtn">찾기</string> <!-- Find -->
+	<string name="ForgotUserNamePasswordBtn">아이디/비밀번호 찾기</string> <!-- Forgot UserName/Password -->
+	<string name="forgot_CancelBtn">취소</string> <!-- Cancel -->
+	<string name="tvRememberMe">기억하기</string> <!-- Remember Me -->
+	<string name="alert_dialog_registration_confirm">가입신청이  되셨습니다. 계정 활성화를 위해 이메일을 확인해주세요.</string> <!-- Your Registration has been confirmed. Please check your email for activation. -->
+	<string name="alert_dialog_registration_confirm_title">가입 확인</string> <!-- Registration Confirm -->
+	<string name="alert_dialog_registration_not_confirm">계정이 아직 활성화 되어있지 않습니다. 계정활성화를 위해 메일주소 확인 후 발송 버튼을 클릭하시어, 발송된 메일의 URL을 클릭하시기 바랍니다.</string> <!-- Your Account has not been activated yet. Please check your email address and click send button to receive email for activation.  -->
+	<string name="alert_dialog_registration_not_confirm_title">비활성화 계정</string> <!-- Account not activated. -->
+	<string name="alert_dialog_send_confirm_email">이메일 발송</string> <!-- Send Email -->
+	<string name="alert_dialog_recover_details_mail">가입하신 이메일로 아이디 및 초기화된 비밀번호가 전송되었습니다.</string> <!-- An Email has been sent to your registered email address with account details. -->
+	<string name="alert_dialog_recover_details_mail_title">비밀번호 초기화 발급</string> <!-- Recover UserId / Password -->
+	<string name="alert_dialog_confirm_mail_sent">가입하신 이메일로 계정 활성화를 위한 이메일이 발송되었습니다.</string> <!-- An Email has been sent to your registered email address for activation. -->
+	<string name="alert_dialog_confirm_mail_sent_title">비활성화 계정</string> <!-- Account not activated -->
+	<string name="alert_dialog_validation_error_title">아래 사항을 확인하세요</string> <!-- Please fix the following error. -->
+	<string name="alert_dialog_password_successfully_changed">비밀번호가 변경 되었습니다.</string> <!-- Password has been successfully changed. -->
+	<string name="alert_dialog_password_successfully_changed_title">비밀번호 변경완료</string>
+	<string name="alert_dialog_affirm_user_email_message">이메일을 확인하세요. 아래 주소로 메일이 발송됩니다.</string>
+	<string name="alert_dialog_affirm_user_email_title">이메일 확인</string>
+	<string name="register_email_domain_alert_dialog_title">이메일 도메인을 선택하세요.</string> <!-- Please select email domain. -->
+	<string name="tvUserOldPassword">현재 비밀번호</string> <!-- Old Password -->
+	<string name="ChangePasswordBtn">비밀번호 변경</string> <!-- Change Password -->
+	<string name="tvUserNewPassword">신규 비밀번호</string> <!-- New Password -->
+	<string name="tvUserNewPasswordCon">신규 비밀번호 확인</string> <!-- Confirm New Password -->
+	<string name="reset_password_title">비밀번호가 초기화 되었습니다.</string> <!-- Reset your password. -->
+	<string name="email_id_not_exist">이메일 계정이 존재하지 않습니다.</string> <!-- This Email Id doesnt exist. -->
+	<string name="emailid_phone_not_exist">단말기 전화번호와 비교하여, 입력하신 이메일 주소가 가입시 기재하신 정보와 일치하지 않습니다.</string> <!-- Either this Email is not registered with this handset or it doesn\'t exist. -->
+	<string name="email_id_invalid">이메일을 잘못 입력하셨습니다.</string> <!-- Invalid Email Address. -->
+	<string name="select_email_domain">이메일 도메인을 선택하세요.</string> <!-- Please select email domain. -->
+	<string name="select_company">회사를 선택하세요.</string> <!-- Please select your company. -->
+	<string name="incorrect_old_password">현재 비밀번호를 잘못 입력하셨습니다.</string> <!-- Old Password is not correct. -->
+	<string name="new_password_req">비밀번호는 6자 이상이어야 합니다.</string> <!-- Password should be atleast 6 characters. -->
+	<string name="invalid_login_credentials">아이디 또는 비밀번호를 잘못 입력하셨습니다.</string> <!-- Invalid Id or Password. -->
+	<string name="invalid_loginid_credentials">아이디를 잘못 입력하셨습니다.</string> <!-- Invalid User Id. -->
+	<string name="invalid_password_credentials">비밀번호를 잘못 입력하셨습니다.</string> <!-- Invalid Password. -->
+	<string name="required_field">Required Field.</string>
+	<string name="user_id_not_available">이미 가입된 아이디 입니다.</string> <!-- This User Id is not available. -->
+	<string name="email_id_not_available">이미 가입된 이메일 입니다.</string> <!-- This Email Id is not available. -->
+	<string name="registration_error">Cannot register.</string>
+	<string name="etUserId_hint">4 ~ 20 알파벳,숫자</string>
+	<string name="etUserPassword_hint">6 ~ 20 자</string>
+	
+	<string name="user_id_req">사용자 ID는 4자 이상 20자 이하여야 합니다.</string> <!-- UserId must have length of 4\-20 characters. -->
+	<string name="username_blank">이름을 입력하세요.</string> <!-- Please enter a UserName. -->
+	<string name="phone_num_invalid">유효하지 않은 휴대폰번호 입니다.</string> <!-- Invalid Phone Number. -->
+	<string name="department_name_blank">부서명을 입력하세요.</string> <!-- Please enter your Department name. -->
+	
+	<!-- 공통  common -->
+	<string name="app_name">SKMS Quiz</string>
+	<string name="alert_dialog_ok">확인</string> <!-- OK -->
+	<string name="alert_dialog_cancel">취소</string> <!-- Cancel -->
+	<string name="progress_message">Loading......</string>
+	<string name="blank_note">현재 등록된 문제가 없습니다.</string>
+
+	<!-- 나의 공부방 -->
+	<string name="mystudyroom">나의 공부방</string>
+	<string name="mystudyroom_correct_note">오답노트</string>
+	<string name="mystudyroom_scrap_note">스크랩노트</string>
+	<string name="mystudyroom_select_note">노트를 선택해 주세요.</string>
+	<string name="mystudyroom_select_note_info">* 오답 노트와 스크랩 노트는 각각 100문제 까지만 저장이 가능합니다.</string>
+	<string name="mystudyroom_delete_note">삭제하면 더 이상 노트에서 확인할 수 없습니다.</string>
+
+	<!-- 프로필 -->
+	<string name="profile_main_user_rank_name_default">-</string>
+	<string name="profile_main_user_score_dafault">-- 점</string>
+	<string name="profile_main_user_participate_cnt_dafult">- 회</string>
+	<string name="profile_main_user_rank_percent_default">상위 --.- %</string>
+	<string name="profile_main_user_rank_detail_default">- 위 (총 - 명)</string>
+	<string name="profile_main_rank_suffix">위</string>
+	<string name="profile_main_nickname_alert_dailog_title">닉네임을 입력해주세요.</string>
+	<string name="profile_main_department_alert_dialog_title">부서를 입력해주세요.</string>
+	<string name="profile_main_update_user_nickname_duplicate_error_msg">중복 닉네임입니다.\n다른 닉네임을 사용해 주세요</string>
+	<string name="profile_header_title">프로필 관리</string>
+	<string name="profile_main_quiz_info_his_title_label">실전 퀴즈 이력 정보</string>
+	<string name="profile_main_quiz_info_his_grade_label">등급</string>
+	<string name="profile_main_user_nim_label">* 닉네임</string>
+	<string name="profile_main_user_comp_label">* 소 속</string>
+	<string name="profile_main_open_yn_label">* 공개여부</string>
+	<string name="profile_main_open_yn_yes">공개</string>
+	<string name="profile_main_open_yn_no">비공개</string>
+	<string name="profile_main_user_default_text">미등록</string>
+	<string name="profile_main_info_his_score_label">누적 점수</string>
+	<string name="profile_main_info_his_enter_cnt_label">참여 회수</string>
+	<string name="profile_main_user_info_empty_message">사용자 정보가 수신에 실패했습니다.</string>	
+	<string name="profile_main_company_data_empty_message">소속사정보가 없습니다.</string>
+	<string name="profile_main_company_alert_dialog_title">소속 선택</string>
+	<string name="profile_main_input_miss_warming_text">* 각 항목 클릭 시 정보수정이 가능 합니다.</string>
+	<string name="profile_main_alert_user_image_title">업로드할 이미지 선택</string>
+	<string name="profile_main_alert_user_image_positive">사진촬영</string>
+	<string name="profile_main_alert_user_image_neutral">앨범선택</string>
+	<string name="profile_main_alert_user_image_negative">취소</string>
+	
+
+
+	<!-- 랭킹 -->
+	<string name="ranking">RANKING</string>
+	<string name="ranking_grade_first">신</string>
+	<string name="ranking_grade_second">지존</string>
+	<string name="ranking_grade_third">고수</string>
+	<string name="ranking_grade_forth">중수</string>
+	<string name="ranking_grade_fifth">하수</string>
+	<string name="ranking_grade_anonymous">무명</string>
+	<string name="ranking_open_yn_click_no">정보를 비공개로 설정한 사용자 입니다.</string>
+	<string name="ranking_user_detail_empty_message">랭킹 이력이 없습니다.</string>
+	<string name="ranking_title">랭킹</string>
+	<string name="ranking_detail_title">사용자정보</string>
+	<string name="ranking_list_empty_message">랭킹데이터가 더 이상 없습니다.</string>
+	<string name="ranking_realquiz_rank">실전퀴즈 랭킹</string><!-- RealQuiz Ranking -->
+	<string name="ranking_event_rank">이벤트 랭킹 </string><!-- Event Ranking -->	
+	<string name="ranking_team_title">팀이벤트 랭킹</string>	
+	<string name="ranking_select_real">Real Ranking</string>
+    <string name="ranking_select_event">Event Ranking</string>
+    <string name="ranking_select_title">Ranking Select</string>
+    <string name="ranking_event_list_title">Ranking Event List</string>
+    <string name="ranking_event_based_team">팀 이벤트 랭킹</string> <!-- Team Event Ranking -->
+    <string name="ranking_list_entry_score_suffix">점</string>
+    <string name="ranking_list_entry_ranking_suffix">위</string>
+    <string name="ranking_list_entry_member_cnt_suffix">명</string>
+    <string name="ranking_list_entry_join_cnt_suffix">회</string>
+    <string name="ranking_generalquiz_rank">일반 이벤트 랭킹</string> <!-- General Event Ranking -->
+    <string name="ranking_list_title">랭킹</string> <!-- Rankings -->
+    
+    
+
+	<!-- 메인화면 -->
+	<string name="quizmain_alert_duplicate_imei_title">단말기 중복</string>
+	<string name="quizmain_alert_duplicate_imei_message">단말기의 중복이 발생했습니다.\n관리자에게 문의바랍니다.</string>
+	<string name="quizmain_alert_error_title">오류 발생</string>
+	<string name="quizmain_alert_error_message">접속중에 오류가 발생하여 인증을 받지 못했습니다.\n인증을 다시 받으시겠습니까?
+	</string>
+	<string name="quizmain_alert_error_positive_button">인증받기</string>
+	<string name="quizmain_alert_error_negative_button">종료하기</string>
+	<string name="quizmain_alert_approval_title">사용인증</string>
+	<string name="quizmain_alert_approval_message">네트워크 오류 및 기타 오류로 인하여 사용자인증을 받지 못했습니다.\n사용인증을 다시 받으시겠습니까?</string>
+	<string name="quizmain_alert_approval_positive_button">인증받기</string>
+	<string name="quizmain_alert_approval_negative_button">종료하기</string>
+	<string name="quizmain_alert_finsh_title">학습종료안내</string>
+	<string name="quizmain_alert_finsh_message">학습을 종료하시겠습니까?</string>
+	<string name="quizmain_alert_finsh_positive_button">예</string>
+	<string name="quizmain_alert_finsh_negative_button">아니오</string>
+
+
+	<!-- 공지사항 -->
+	<string name="notice_list_empty_message">더 이상 자료가 없습니다.</string>
+	<string name="notice_list_title">공지사항</string>	
+	<string name="copyright"><![CDATA[Copyright© 2012 SK C&C Co., Ltd. Portal Service Team. ALL RIGHTS RESERVED]]></string>
+	
+	<!-- 실전퀴즈 -->
+	<string name="realquiz_download_list_retry_alert_title">실전퀴즈</string>
+	<string name="realquiz_download_list_retry_alert_message">문제 데이터를 받지 못했습니다.\n다시 시도하시겠습니까?</string>
+
+	<string name="realquiz_store_answer">저장되었습니다.</string>
+	    
+	<!-- App 다운로드 -->
+    <string name="app_file_path">/skcc/.download/QuizApp.apk</string>
+    <string name="app_file_dir">/skcc/.download</string>
+    <string name="app_file_name">QuizApp.apk</string>
+    <string name="app_version_up_messsage">신규버전으로 업데이트 진행 중입니다.</string>
+    <string name="app_version_up_alert_title">업데이트</string>
+    <string name="app_version_up_alert_message">새로운 버전이 있습니다.\n업데이트 하시겠습니까?</string>
+    
+    <!-- Sudden Event -->
+    <string name="sudden_event_join_alert_title">돌발퀴즈</string>
+    <string name="sudden_event_join_alert_message">정답을 맞추신 분들중에서 추첨을 통하여 상품을 드립니다.</string>
+    <string name="sudden_event_join_alert_positive_button">참여</string>
+    <string name="sudden_event_join_alert_negative_button">취소</string>
+    <string name="sudden_event_question_title">돌발퀴즈</string>
+    <string name="shortanswer_question_text_default">회사는 SUPEX Company를 지향하되 일정 기간 내에 도달 가능한 (      ) Company를 설정하고, 이를 각 단위조직에서 목표 및 전략으로 구체화하여 실행하도록 하여야 한다.</string>
+    <string name="ox_question_text_default">문제를 불러오는 중입니다.</string>
+    <string name="multi_choice_question_text_default">다음 중 경영기본이념이 아닌 것은 무엇입니까?</string>
+    <string name="multi_choice_question_answer_default_1">기업관</string>
+    <string name="multi_choice_question_answer_default_2">추구가치</string>
+    <string name="multi_choice_question_answer_default_3">경영원칙</string>
+    <string name="multi_choice_question_answer_default_4">기업문화</string>
+    <string name="sudden_event_finish_alert_title">돌발퀴즈 종료</string>
+    <string name="sudden_event_finish_alert_message">돌발퀴즈에 참여해 주셔서 감사합니다.</string>
+    <string name="sudden_event_time_complete_alert_title">시간종료</string>
+    <string name="sudden_event_time_complete_alert_message">돌발퀴즈 시간이 종료되었습니다.</string>
+
+    <!-- General Event -->
+    <string name="general_event_list_page_size">10</string>
+    <string name="general_event_join_title">이벤트</string>
+    <string name="generalevent_list_empty_message">이벤트데이터가 더 이상 없습니다.</string>
+    <string name="generalevent_list_upcoming_message">이벤트 시작전 입니다.</string> <!-- This Event has not yet started. -->
+    <string name="GeneralEventJoinBtn">이벤트 참여</string> <!-- Join Event -->
+    <string name="VirtualEventJoinBtn">이벤트 참여</string> <!-- Join Event -->
+    <string name="GeneralEventRankingBtn">랭킹</string>
+    <string name="VirtualEventRankingBtn">랭킹</string> <!-- Ranking -->
+    <string name="generalevent_list_event_taken_message">이미 참여하신 이벤트 입니다.</string>
+    <string name="generalevent_list_event_not_a_member_message">죄송합니다. 이 이벤트의 참여 대상이 아닙니다.</string> <!-- Sorry. You are not a member to this event. -->
+    <string name="question_clock_default">00:00</string>
+	<string name="general_event_time_complete_alert_title">시간종료</string>
+    <string name="general_event_time_complete_alert_message">돌발퀴즈 시간이 종료되었습니다.</string>
+    <string name="general_event_register_score_failure_alert_message">점수를 등록할 수 없습니다.</string> <!-- Cannot register score. -->
+    <string name="virtual_event_team_member_max_alert_message">정원이 다 찼습니다. 다른 팀을 선택해 주세요.</string> <!-- This team has no space. Please choose another team. -->
+    
+    <string name="generalquiz_alert_finish_title">일반퀴즈 종료 알림</string> <!-- General Quiz Finish Alert -->
+	<string name="generalquiz_alert_finish_message">정말 퀴즈를 종료하시겠습니까?</string> <!-- Are you sure you wanna quit? You cannot take this quiz again if you quit in middle. -->
+	<string name="generalquiz_alert_finish_positive_button">예</string>
+	<string name="generalquiz_alert_finish_negative_button">아니오</string>	
+    
+	<string name="suddenquiz_alert_finish_title">돌발퀴즈 종료 알림</string> <!-- Sudden Quiz Finish Alert -->
+	<string name="suddenquiz_alert_finish_message">정말 퀴즈를 종료하시겠습니까?</string> <!-- Are you sure you wanna quit? You cannot take this quiz again if you quit in middle. -->
+	<string name="suddenquiz_alert_finish_positive_button">예</string>
+	<string name="suddenquiz_alert_finish_negative_button">아니오</string>	
+	
+	<string name="practicequiz_alert_finish_title">학습퀴즈 종료 알림</string> <!-- Practice Quiz Finish Alert -->
+	<string name="practicequiz_alert_finish_message">정말 퀴즈를 종료하시겠습니까?</string> <!-- Are you sure you wanna quit? -->
+	<string name="practicequiz_alert_finish_positive_button">예</string>
+	<string name="practicequiz_alert_finish_negative_button">아니오</string>	
+	
+	<string name="realquiz_alert_finish_title">실전퀴즈 종료 알림</string> <!-- Real Quiz Finish Alert -->
+	<string name="realquiz_alert_finish_message">정말 퀴즈를 종료하시겠습니까?</string><!-- Are you sure you wanna quit? -->
+	<string name="realquiz_alert_finish_positive_button">예</string>
+	<string name="realquiz_alert_finish_negative_button">아니오</string>	
+	
+    <!-- Survival Event -->
+    <string name="survival_event_list_page_size">10</string>
+    <string name="survival_event_time_complete_alert_title">시간종료</string>
+    <string name="survival_event_time_complete_alert_message">돌발퀴즈 시간이 종료되었습니다.</string>
+    <string name="survival_event_correct_answer_alert_title">정답</string> <!-- correct! -->
+    <string name="survival_event_correct_answer_alert_message">맞췄습니다! 다음 퀴즈를 진행하세요</string> <!-- Bingo!!! Let\'s try next question. -->
+    <string name="survival_event_incorrect_answer_alert_title">틀렸습니다.</string> <!-- InCorrect -->
+    <string name="survival_event_incorrect_answer_alert_message">틀렸습니다! 더이상 진행 하실 수 없습니다.</string> <!-- You are dead!!! Can\'t proceed further. Sorry. -->
+	<string name="survivalquiz_alert_finish_title">서바이벌퀴즈 종료 알림</string>
+	<string name="survivalquiz_alert_finish_message">정말 퀴즈를 종료하시겠습니까?</string> <!--Are you sure you wanna quit? You cannot take this quiz again if you quit in middle.-->
+	<string name="survivalquiz_alert_finish_positive_button">예</string>
+	<string name="survivalquiz_alert_finish_negative_button">아니오</string>	    
+</resources>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mystudyroom.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\mystudyroom.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\realquiz.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\realquiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\rankingselect.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\rankingselect.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\noticelist.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\noticelist.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\quizmain.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\quizmain.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\generalevent.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\generalevent.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\practicequiz.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\practicequiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profilemain.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\menu\\profilemain.xml"
+    }
+]

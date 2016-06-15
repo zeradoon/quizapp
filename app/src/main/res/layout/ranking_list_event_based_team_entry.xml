@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/answerlist_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ranking_list_event_based_team_entry_ranking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1위"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ranking_list_event_based_team_entry_dept_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부서명"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ranking_list_event_based_team_entry_member_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 명"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Black" />
+            
+            <TextView
+                android:id="@+id/ranking_list_event_based_team_entry_join_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 명"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/ranking_list_event_based_team_entry_dept_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 점"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/ranking_list_event_based_team_entry_dept_avg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="95 점"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

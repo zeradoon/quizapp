@@ -1,0 +1,630 @@
+[
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_retry_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_retry_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\papernote.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\papernote.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\corner_left.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\corner_left.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_btn2.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewsheet_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewsheet_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_btn.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\login_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\corner_center.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\corner_center.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appmark.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\appmark.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_startquiz_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_startquiz_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rankinglist_border.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\rankinglist_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_prevquiz.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_prevquiz.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile_label02.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\profile_label02.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_question.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_question.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_btn3.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_note_delete.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_note_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_quiz03_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_quiz03_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_arrow_left.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\top_arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_note_before.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_note_before.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile_label04.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\profile_label04.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile_label01.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\profile_label01.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_before.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_before.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_noimage.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\photo_noimage.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_border_outside.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\table_border_outside.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_corner_4.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_corner_4.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_next_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_next_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg02.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg02.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_retry_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_retry_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_before_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_before_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_grade_4.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\user_grade_4.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_note_delete_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_note_delete_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_correct_note_before.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_correct_note_before.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rankinglist_bg.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\rankinglist_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_border_th.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\table_border_th.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_corner_3.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_corner_3.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewranking_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewranking_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_mystudyroom02.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_mystudyroom02.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_clock.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\icon_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_x_selector_on.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_x_selector_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_correct_note_next_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_correct_note_next_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_red.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_hori.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_hori.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_o_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_o_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_o_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_o_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_note_next.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_note_next.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\corner_right.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\corner_right.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_arrow_right.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\top_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_quiz02_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_quiz02_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewsheet_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewsheet_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg07.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg07.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_x_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_x_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_ranking_noimage.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\photo_ranking_noimage.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_o.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_o.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg04.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg04.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_title.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_title.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewranking_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewranking_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\table_border.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\table_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_login.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\medal_bronze.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\medal_bronze.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_grade_2.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\user_grade_2.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewanswer_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewanswer_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_shape.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\round_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_rankinfo.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\title_rankinfo.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg01.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg01.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_x.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_x.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_home.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_home.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_note_next_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_note_next_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_correct_note_delete_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_correct_note_delete_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_nextquiz_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_nextquiz_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_nextquiz.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_nextquiz.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_saveanswer_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_saveanswer_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_btn1.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_gotoquestion.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_gotoquestion.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_header.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noticelist_header.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\noticelist_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_goto_mystudyroom.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_goto_mystudyroom.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_gray.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_nextquiz_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_nextquiz_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg06.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg06.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_prevquiz_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_prevquiz_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_phone.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_sub_login.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_sub_login.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_quit_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_quit_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_grade_0.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\user_grade_0.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_goto_mystudyroom_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_goto_mystudyroom_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_text.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg02.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg02.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_quiz01.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_quiz01.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_next.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_next.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewsheet.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewsheet.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewranking.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewranking.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_logo.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_quit_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_quit_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\answerlist_bg.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\answerlist_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_quiz01_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_quiz01_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\medal_gold.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\medal_gold.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_summitsheet_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_summitsheet_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_save_completed.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_save_completed.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_quiz02.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_quiz02.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hidden.jpg",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\hidden.jpg"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_verti.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_verti.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_quit.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_quit.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_startquiz_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_startquiz_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_corner_1.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_corner_1.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_speaker.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_speaker.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\generaleventlist_bg.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\generaleventlist_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_o_selector_on.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_o_selector_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_grade_1.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\user_grade_1.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\signout.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\signout.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_answer.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_answer.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_sub.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_sub.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg05.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg05.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_correct_note_before_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_correct_note_before_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_note_before_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_note_before_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notice.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\notice.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_quiz03.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_quiz03.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_generalrank_info.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\title_generalrank_info.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_summitsheet_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_summitsheet_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\question_border2.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\question_border2.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_bg03.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_bg03.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\text_input_bg.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\text_input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\generaleventlist_border.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\generaleventlist_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\question_border.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\question_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_saveanswer.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_saveanswer.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_grade_3.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\user_grade_3.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_teamrank_info.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\title_teamrank_info.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_sub2.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_sub2.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skccimage_1.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\skccimage_1.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_summitsheet.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_summitsheet.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\phone_corner_2.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\phone_corner_2.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\question_num.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\question_num.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\medal_silver.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\medal_silver.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_select_mystudyroom01.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_select_mystudyroom01.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_viewanswer.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_viewanswer.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_box.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\login_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_orange.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_gotoquestion_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_gotoquestion_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_prevquiz_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_prevquiz_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sk_logo.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\sk_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_correct_note_next.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_correct_note_next.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_correct_note_delete.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_correct_note_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_continue.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_continue.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user_grade_anonymous.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\user_grade_anonymous.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_saveanswer_selector.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_saveanswer_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_x_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_x_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_scrap_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_scrap_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile_label03.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\profile_label03.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_answerword.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\bg_answerword.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_delete_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_delete_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_delete.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_continue_on.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_continue_on.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_retry.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_retry.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_startquiz.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_startquiz.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_goto_mystudyroom_void.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\btn_goto_mystudyroom_void.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_bg.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-hdpi\\top_bg.png"
+    }
+]

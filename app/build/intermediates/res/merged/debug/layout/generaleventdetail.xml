@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.3dp"
+                android:layout_marginRight="7.3dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_box"
+                android:orientation="vertical"
+                android:paddingLeft="9.3dp"
+                android:paddingRight="9.3dp"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/generalevent_detail_entry_name"
+                        style="@style/ranking_listview_entry_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="General Survival Quiz Multi Join Event"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/generalevent_detail_entry_time"
+                        style="@style/ranking_listview_entry_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="기간 : 2012-10-01 ~ 2012-11-01" />
+
+                    <TextView
+                        android:id="@+id/generalevent_detail_entry_desc"
+                        style="@style/ranking_listview_entry_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="서바이벌 퀴즈 입니다.~~~~~" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <Button
+                        android:id="@+id/GeneralEventJoinBtn"
+                        style="@drawable/btn_gray"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="onClick"
+                        android:text="@+string/GeneralEventJoinBtn"
+                        android:textColor="#FF0000" />
+
+                    <Button
+                        android:id="@+id/GeneralEventRankingBtn"
+                        style="@drawable/btn_gray"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:onClick="onClick"
+                        android:text="@+string/GeneralEventRankingBtn"
+                        android:textColor="#FF0000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

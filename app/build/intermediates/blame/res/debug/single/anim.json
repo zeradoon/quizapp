@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\layout_anim.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\anim\\layout_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\anim\\alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\layout_scale.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\anim\\layout_scale.xml"
+    }
+]

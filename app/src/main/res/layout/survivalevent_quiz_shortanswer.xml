@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/survivalevent_quiz_shortanswer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/relativeLayout2" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/question_border"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/survivalevent_quiz_num3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:background="@drawable/question_num"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="문제 3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/survivalevent_quiz_3_question"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dp"
+                        android:text="회사는 SUPEX Company를 지향하되 일정 기간 내에 도달 가능한 (      ) Company를 설정하고, 이를 각 단위조직에서 목표 및 전략으로 구체화하여 실행하도록 하여야 한다."
+                        android:textColor="#000000"
+                        android:textSize="14dp" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/question_border"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/youranswer_survivalevent_edittext"
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+                            android:maxLength="20"
+                            android:singleLine="true"
+                            android:editable="true" >
+                        </EditText>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp" >
+            
+            <ImageButton 
+                android:layout_height="wrap_content" 
+                android:layout_width="wrap_content" 
+                android:src="@drawable/btn_saveanswer_selector" 
+                android:background="@color/Transparent" 
+                android:id="@+id/btn_survivalevent_summitsheet_shortanswer"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" 
+                android:onClick="onclick">
+                
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/btn_survivalevent_next_shortanswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:onClick="onclick"
+                android:src="@drawable/btn_nextquiz_selector" >
+            </ImageButton>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

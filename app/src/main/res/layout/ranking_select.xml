@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/bg_sub">
+	<include 
+		layout="@layout/title" 
+		android:id="@+id/title"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" />
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical"
+	    android:visibility="gone"
+	    android:weightSum="1" >
+
+		<Button
+		    android:id="@+id/btn_ranking_select_real_ranking"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:text="@string/ranking_select_real" />
+
+		<Button
+		    android:id="@+id/btn_ranking_select_event_ranking"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:text="@string/ranking_select_event" />
+
+	</LinearLayout>
+	<LinearLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:paddingTop="5dp">
+    		
+    		<TabHost
+    			android:id="@+id/ranking_tabhost"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content">
+
+    			<TabWidget
+    			    android:id="@android:id/tabs"
+    			    android:layout_width="fill_parent"
+    			    android:layout_height="wrap_content"
+    			    android:gravity="top" />
+    			    		
+	    		<FrameLayout
+	    			android:id="@android:id/tabcontent"
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+	    			android:paddingTop="30dp"
+	    			android:layout_gravity="top">
+	    			
+	    			<include layout="@layout/real_quiz_ranking" 
+	    			    android:id="@+id/ranking_tab1"
+				    	android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent" />
+				    	
+	    			<include layout="@layout/event_ranking" 
+	    			    android:id="@+id/ranking_tab2"
+				    	android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent" />
+
+	    		</FrameLayout>   	
+    		</TabHost>	
+    		
+   		</LinearLayout>
+</LinearLayout>

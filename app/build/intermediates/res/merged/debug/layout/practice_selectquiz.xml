@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub">
+    
+    <include layout="@layout/practice_quiz_title" android:id="@+id/title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="center_horizontal"
+    	android:layout_weight="0"
+    	android:padding="10dp">
+    	
+    	<LinearLayout
+    	    android:id="@+id/LinearLayout01"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="5dp"
+    	    android:background="@drawable/login_box"
+    	    android:gravity="top"
+    	    android:orientation="vertical"
+    	    android:padding="10dp" >
+    		
+    		<TextView
+    		    android:id="@+id/TextView01"
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:layout_marginLeft="5dp"
+    		    android:layout_marginRight="5dp"
+    		    android:layout_marginTop="15dp"
+    		    android:text="학습 퀴즈는 문제 수와 시간 제한 없이 실력 배양을 위한 목적으로 진행되는 퀴즈입니다.\n열심히 공부하셔서 SKMS의 달인이 되어 보세요. ^^"
+    		    android:textColor="#000000" />
+    			
+    		<TextView
+    			android:id="@+id/TextView01"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#000000"
+				android:paddingTop="40dp"
+				android:text="퀴즈 유형을 선택해 주세요."
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content" />
+    			
+    		<LinearLayout
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginBottom="15dp"
+    		    android:gravity="center_horizontal"
+    		    android:orientation="horizontal"
+    		    android:paddingTop="30dp" >
+    		
+	    		<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:background="@drawable/btn_select_quiz01"
+					android:id="@+id/practice_selectbtn01"></Button>
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:background="@drawable/btn_select_quiz02"
+					android:id="@+id/practice_selectbtn02"
+					android:layout_marginLeft="10dp"></Button>
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:background="@drawable/btn_select_quiz03"
+					android:id="@+id/practice_selectbtn03"
+					android:layout_marginLeft="10dp"></Button>
+				
+			</LinearLayout>
+	    </LinearLayout> 	
+	
+	</LinearLayout>
+</LinearLayout>

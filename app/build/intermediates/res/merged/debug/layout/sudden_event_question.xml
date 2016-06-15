@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0"
+    android:background="@drawable/bg_sub"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/sudden_event_question_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/sudden_event_question_title" />
+
+    <include
+        android:id="@+id/sudden_event_question_clock_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/sudden_event_question_clock" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <ScrollView
+            android:id="@+id/shortanswer_question_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/relativeLayout2_ref"
+            android:visibility="gone" >
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/shortanswer_question" />
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/mutliple_choice_question_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/relativeLayout2_ref"
+            android:visibility="gone" >
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/multiple_choice_question" />
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/ox_question_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/relativeLayout2_ref"
+            android:visibility="visible" >
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/ox_question" />
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2_ref"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp" >
+
+            <ImageButton
+                android:id="@+id/btn_sudden_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn_summitsheet" >
+            </ImageButton>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

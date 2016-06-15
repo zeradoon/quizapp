@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_box"
+            android:orientation="vertical"
+            android:paddingLeft="9.3dp"
+            android:paddingRight="9.3dp"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/virtualevent_detail_entry_name"
+                    style="@style/ranking_listview_entry_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/virtualevent_detail_entry_time"
+                    style="@style/ranking_listview_entry_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/virtualevent_detail_entry_desc"
+                    style="@style/ranking_listview_entry_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/virtualTeamLayoutView"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	            android:orientation="vertical" >
+                
+                <RadioGroup android:layout_width="fill_parent"     
+                    android:layout_marginLeft="20dip"     
+                    android:layout_height="wrap_content"     
+                    android:orientation="vertical"     
+                    android:id="@+id/virtualTeamNameRadioGroup"> 
+                </RadioGroup> 
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <Button
+                    android:id="@+id/VirtualEventJoinBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="@+string/VirtualEventJoinBtn"
+                    android:textColor="#FF0000" />
+                <Button
+                    android:id="@+id/VirtualEventRankingBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="@+string/VirtualEventRankingBtn"
+                    android:textColor="#FF0000" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

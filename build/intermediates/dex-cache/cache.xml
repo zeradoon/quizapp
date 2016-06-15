@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\zerad\StudioProjects\QuizApp\app\src\main\libs\jsoup-1.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b65281e9d00f255cdfab9e1880f7fc7a1fb1bffb">
+        <dex dex="C:\Users\zerad\StudioProjects\QuizApp\app\build\intermediates\pre-dexed\debug\jsoup-1.6.1_0408c44f784b39603851791dbf2f6d91d96c3937.jar" />
+    </item>
+    <item
+        jar="C:\Users\zerad\StudioProjects\QuizApp\app\src\main\libs\jsoup-1.6.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b65281e9d00f255cdfab9e1880f7fc7a1fb1bffb">
+        <dex dex="C:\Users\zerad\StudioProjects\QuizApp\app\build\intermediates\pre-dexed\debug\jsoup-1.6.1_0408c44f784b39603851791dbf2f6d91d96c3937.jar" />
+    </item>
+
+</items>

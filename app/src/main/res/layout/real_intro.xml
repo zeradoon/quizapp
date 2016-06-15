@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub">
+    
+    <include layout="@layout/real_quiz_title" android:id="@+id/real_quiz_title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    
+    <LinearLayout
+       
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="center_horizontal"
+    	android:layout_weight="0"
+    	android:padding="10dp">
+    	
+    	<LinearLayout
+    	    android:id="@+id/LinearLayout01"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="5dp"
+    	    android:background="@drawable/login_box"
+    	    android:gravity="top"
+    	    android:orientation="vertical"
+    	    android:padding="10dp" >
+    		
+    		<TextView
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:layout_marginLeft="8dp"
+    		    android:layout_marginRight="8dp"
+    		    android:layout_marginTop="12dp"
+    		    android:text="실전 퀴즈는 사내 SKMS 관련 시험과 유사한 모의형식의 퀴즈입니다.\n실제 시험에 임하는 자세로 집중하셔서 좋은 결과 거두시길 바랍니다."
+    		    android:textColor="#000000"
+    		    android:textSize="13dp" />
+    			
+    		<LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:padding="20dp">
+    			
+	    		<TextView
+	    		    android:id="@+id/tv_real_intro_quizdetails"
+	    		    android:layout_width="wrap_content"
+	    		    android:layout_height="wrap_content"
+	    		    android:layout_gravity="center_horizontal"
+	    		    android:background="#ffffff"
+	    		    android:padding="10dp"
+	    		    android:text="총 문 제 수 : 10개\n제 한 시 간 : 10분"
+	    		    android:textColor="#fb9b34"
+	    		    android:textSize="14dp"
+	    		    android:textStyle="bold" />
+
+	    	</LinearLayout>
+    			
+    		<TextView
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+    		    android:layout_gravity="center_horizontal"
+    		    android:layout_marginBottom="10dp"
+    		    android:layout_marginLeft="8dp"
+    		    android:layout_marginRight="8dp"
+    		    android:layout_marginTop="10dp"
+    		    android:text="(유의 사항)\n\n퀴즈별 답을 입력한 후에 답안지를 제출해야만 체점이 진행되고, 결과확인 후 랭킹에도 반영됩니다.\n제한시간을 초과하면 답안지는 자동으로 제출되고 미입력된 문항은 오답으로 처리됩니다.\n퀴즈는 순서에 관계없이 자유롭게 풀어도 됩니다."
+    		    android:textColor="#646464"
+    		    android:textSize="13dp" />
+    			
+    		<LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal"
+	    		android:gravity="center_horizontal"
+	    		android:paddingTop="20dp">    		
+	    		
+<!-- 				<Button -->
+<!-- 				    android:id="@+id/real_introbtn_01"  -->
+<!-- 					android:layout_width="wrap_content" -->
+<!-- 					android:layout_height="wrap_content" -->
+<!-- 					android:layout_gravity="center_horizontal" -->
+<!-- 					android:onClick="monclick" -->
+<!-- 					 android:background="#00000000"  -->
+<!-- 					android:text="시작"></Button> -->
+				<ImageButton 
+					android:id="@+id/real_introbtn_01"  
+					android:layout_height="wrap_content" 
+					android:layout_width="wrap_content"
+					android:background="#00000000" android:src="@drawable/btn_startquiz_selector">
+				</ImageButton>
+				    
+			</LinearLayout>
+	    </LinearLayout> 	
+	
+	</LinearLayout>
+</LinearLayout>

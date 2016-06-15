@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub">
+    
+        <include layout="@layout/generalevent_quiz_title" 
+        android:id="@+id/generalevent_quiz_title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+   
+	    <include layout="@layout/generalevent_clock" 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" />
+	     	    
+	   	<include layout="@layout/generalevent_quiz_shortanswer"
+	    	android:id="@+id/generalevent_quiz_shortanswer"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />		
+	    	
+	    <include layout="@layout/generalevent_quiz_multiple"
+	    	android:id="@+id/generalevent_quiz_multiple"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />
+	      
+	   	<include layout="@layout/generalevent_quiz_ox"
+	    	android:id="@+id/generalevent_quiz_ox"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />
+	     	
+	   	<include layout="@layout/generalevent_quiz_answerlist"
+	    	android:id="@+id/generalevent_quiz_answerlist"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" /> 	
+		
+		
+</LinearLayout>

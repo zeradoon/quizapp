@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="fill_parent"
+	   	android:orientation="vertical"
+	   	android:gravity="center_horizontal"
+	   	android:layout_weight="0">
+		<include 
+	   		layout="@layout/mystudyroom_scrap_note_multiple_choice" 
+	   		android:id="@+id/mystudyroom_scrap_note_multiple_choice"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />
+	    <include 
+		    layout="@layout/mystudyroom_scrap_note_ox_choice" 
+		    android:id="@+id/mystudyroom_scrap_note_ox_choice"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />
+	    <include 
+		    layout="@layout/mystudyroom_scrap_note_essay_question" 
+		    android:id="@+id/mystudyroom_scrap_note_essay_question"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />
+		<include 
+		    layout="@layout/mystudyroom_tab_scrap_blank" 
+		    android:id="@+id/scrap_blank"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent" />
+	</LinearLayout>
+</ScrollView>

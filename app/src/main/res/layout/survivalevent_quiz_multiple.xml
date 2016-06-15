@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/survivalevent_quiz_multiple"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/relativeLayout2" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/question_border"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/survivalevent_quiz_num2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:background="@drawable/question_num"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="문제 2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/survivalevent_quiz_2_question"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dp"
+                        android:text="다음 중 경영기본이념이 아닌 것은 무엇입니까?"
+                        android:textColor="#000000"
+                        android:textSize="14dp" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/question_border"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp" >
+
+                        <RadioGroup
+                            android:id="@+id/btn_survivalevent_quiz_answer_radio"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <RadioButton
+                                android:id="@+id/btn_survivalevent_quiz_answer_radio1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:onClick="onclick"
+                                android:text="기업관"
+                                android:textColor="#000000"
+                                android:textSize="14dp" >
+                            </RadioButton>
+
+                            <RadioButton
+                                android:id="@+id/btn_survivalevent_quiz_answer_radio2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:onClick="onclick"
+                                android:text="추구가치"
+                                android:textColor="#000000"
+                                android:textSize="14dp" >
+                            </RadioButton>
+
+                            <RadioButton
+                                android:id="@+id/btn_survivalevent_quiz_answer_radio3"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:onClick="onclick"
+                                android:text="경영원칙"
+                                android:textColor="#000000"
+                                android:textSize="14dp" >
+                            </RadioButton>
+
+                            <RadioButton
+                                android:id="@+id/btn_survivalevent_quiz_answer_radio4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:onClick="onclick"
+                                android:text="기업문화"
+                                android:textColor="#000000"
+                                android:textSize="14dp" >
+                            </RadioButton>
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp" >
+			
+            <ImageButton 
+                android:layout_height="wrap_content" 
+                android:layout_width="wrap_content" 
+                android:src="@drawable/btn_saveanswer_selector" 
+                android:background="@color/Transparent" 
+                android:id="@+id/btn_survivalevent_summitsheet_multiple"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" 
+                android:onClick="onclick">
+                
+            </ImageButton>				
+            
+            <ImageButton
+                android:id="@+id/btn_survivalevent_next_multiple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:onClick="onclick"
+                android:src="@drawable/btn_nextquiz_selector" >
+            </ImageButton>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

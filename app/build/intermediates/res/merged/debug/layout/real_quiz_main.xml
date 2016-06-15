@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub">
+    
+    <include layout="@layout/title" android:id="@+id/title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:id="@+id/real_quiz_multiple"   	
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="top"
+    	android:layout_weight="0"
+    	android:paddingTop="5dp"
+   		android:paddingLeft="10dp"
+   		android:paddingRight="10dp">
+   	   		
+   		<RelativeLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+		    	
+   			<TextView
+    			android:id="@+id/TextView01"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_centerVertical="true"
+				android:textColor="#000000"
+				android:textSize="12dp"
+				android:drawableLeft="@drawable/icon_clock"
+				android:drawablePadding="3dp"
+				android:text="10:00" />
+			
+			<Button
+				android:id="@+id/real_viewsheet"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+    			android:layout_alignParentRight="true"
+    			android:layout_centerVertical="true"
+    			android:background="@drawable/btn_viewsheet" />
+		</RelativeLayout>
+   		
+   		
+	   
+		
+		
+	</LinearLayout>
+</LinearLayout>

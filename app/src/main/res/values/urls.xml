@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--         <string name="base_uri">http://10.250.114.56:8080/SKMS_WAS/</string> -->
+<!--     <string name="base_uri">http://150.28.66.30:8080/SKMS_WAS/</string> -->
+    <string name="base_uri">http://zamvirus.cafe24.com/</string>
+    <string name="notice_page_size">10</string>
+    <string name="ranking_page_size">10</string>        
+</resources>

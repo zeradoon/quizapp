@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sub_login"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_logo" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@+string/tvUserId"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="20"
+                    android:hint="@+string/etUserId_hint"
+                    android:singleLine="true" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="0.2"
+                    android:text="@+string/tvUserPassword"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:hint="@+string/etUserPassword_hint"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserPasswordCon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="0.2"
+                    android:text="@+string/tvUserPasswordCon"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserPasswordCon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@+string/tvUserName"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="20"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@+string/tvUserPhone"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserPhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="#888888"
+                    android:inputType="none"
+                    android:state_enabled="false"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:maxLength="11"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserCompany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@+string/tvUserCompany"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserCompany"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:onClick="showDialog"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserDept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@+string/tvUserDept"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserDept"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="20"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/tvUserNickName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@+string/tvUserNickName"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/etUserNickName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="10"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="11dp" >
+
+                <TextView
+                    android:id="@+id/tvUserEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="0.2"
+                    android:text="@+string/tvUserEmail"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/etUserEmail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="41dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/edit_text"
+                        android:ems="10"
+                        android:maxLength="50"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:id="@+id/tvUserEmailDomain"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@+string/tvUserEmailDomain"
+                        android:textColor="#000000"
+                        android:textSize="30dp" />
+
+                    <EditText
+                        android:id="@+id/etUserEmailDomain"
+                        android:layout_width="fill_parent"
+                        android:layout_height="41dp"
+                        android:layout_weight="4"
+                        android:background="@drawable/edit_text"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:onClick="showDialog"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="300dp"
+                android:paddingTop="20dp" >
+
+                <Button
+                    android:id="@+id/login_RegisterBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_orange"
+                    android:onClick="onClick"
+                    android:text="@+string/login_RegisterBtn"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/login_CancelBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_gray"
+                    android:onClick="onClick"
+                    android:text="@+string/login_CancelBtn"
+                    android:textColor="#454545" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

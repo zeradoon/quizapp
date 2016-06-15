@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\generaleventlist_bg.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-mdpi\\generaleventlist_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\generaleventlist_border.xml",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-mdpi\\generaleventlist_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_bg07.png",
+        "source": "C:\\Users\\zerad\\StudioProjects\\QuizApp\\app\\src\\main\\res\\drawable-mdpi\\btn_bg07.png"
+    }
+]
